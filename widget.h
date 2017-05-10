@@ -16,6 +16,7 @@ public:
     ~Widget();
     void inputmoney(int i);
     void checkmoney();
+    int money{0};
 
 private slots:
 
@@ -34,6 +35,7 @@ private slots:
     void on_pbTea_clicked();
 
     void on_pbYul_clicked();
+
 
 private:
     Ui::Widget *ui;
